@@ -1,4 +1,5 @@
 import Button from "./Button/Button";
+import Button1 from "./Button1";
 import Card from "./Card";
 import Food from "./Food";
 import Footer from "./Footer";
@@ -14,6 +15,7 @@ function App() {
       <Card />
       <Card />
       <Button />
+      <Button1 />
       <Footer />
     </>
   );
