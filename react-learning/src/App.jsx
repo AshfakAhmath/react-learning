@@ -1,3 +1,4 @@
+import Card from "./Card";
 import Food from "./Food";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -7,7 +8,10 @@ function App() {
     <>
       <Header />
       <Food />
-      <Food />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
       <Footer />
     </>
   );
