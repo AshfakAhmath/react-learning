@@ -1,0 +1,11 @@
+.card p{
+    margin: 0;
+}
+.card{
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    background-color: hsl(236, 100%, 50%);
+    color: white;
+    border-radius: 10px;
+}
