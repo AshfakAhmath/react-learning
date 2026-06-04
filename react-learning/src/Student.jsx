@@ -16,10 +16,4 @@ Student.propTypes = {
   isStudent: PropTypes.bool,
 };
 
-Student.defaultProps = {
-  name: "Guest",
-  age: 0,
-  isStudent: false,
-};
-
 export default Student;
