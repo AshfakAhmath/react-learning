@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Student from "./Student";
 import StudentCard from "./StudentCard/StudentCard";
+import UserGreeting from "./UserGreeting";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       <StudentCard name="Ahmath" age={23} isStudent = {true}/>
       <StudentCard name="Aslam Sahi" age={22} isStudent = {false}/>
       <StudentCard />
-      
+      <UserGreeting username="Ashfak Ahmath" isLogin={true}/>
+      <UserGreeting />
     </>
   );
 }
