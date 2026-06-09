@@ -4,6 +4,7 @@ import Card from "./Card";
 import Food from "./Food";
 import Footer from "./Footer";
 import Header from "./Header";
+import List from "./List";
 import Student from "./Student";
 import StudentCard from "./StudentCard/StudentCard";
 import UserGreeting from "./UserGreeting";
@@ -30,6 +31,7 @@ function App() {
       <StudentCard />
       <UserGreeting username="Ashfak Ahmath" isLogin={true}/>
       <UserGreeting />
+      <List />
     </>
   );
 }
