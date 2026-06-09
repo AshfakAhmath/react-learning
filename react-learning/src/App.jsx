@@ -1,10 +1,12 @@
 import Button from "./Button/Button";
 import Button1 from "./Button1";
 import Card from "./Card";
+import Course from "./Course";
 import Food from "./Food";
 import Footer from "./Footer";
 import Header from "./Header";
 import List from "./List";
+import Navbar from "./Navbar";
 import Student from "./Student";
 import StudentCard from "./StudentCard/StudentCard";
 import UserGreeting from "./UserGreeting";
@@ -32,6 +34,8 @@ function App() {
       <UserGreeting username="Ashfak Ahmath" isLogin={true}/>
       <UserGreeting />
       <List />
+      <Navbar />
+      <Course />
     </>
   );
 }
